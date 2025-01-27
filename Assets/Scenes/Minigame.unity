@@ -185,6 +185,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -461,6 +466,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -757,7 +767,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1254,7 +1264,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1347,6 +1357,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1427,7 +1442,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1575,7 +1590,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1605,6 +1620,78 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485679033}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &498230208
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 737912411}
+    m_Modifications:
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.775
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.84462327
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.46193978
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.19134173
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.19134173
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8214709504258966970, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      propertyPath: m_Name
+      value: PickUp Teleport
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8214709504258966970, guid: 8eee502efd99b304f9d04f3291d98339,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1804846408}
+  m_SourcePrefab: {fileID: 100100000, guid: 8eee502efd99b304f9d04f3291d98339, type: 3}
 --- !u!1 &510173965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,7 +1768,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1916,6 +2003,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2068,7 +2160,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2173,7 +2265,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2266,6 +2358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2346,7 +2443,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2573,6 +2670,7 @@ Transform:
   - {fileID: 94015462}
   - {fileID: 1706108608}
   - {fileID: 2011002725}
+  - {fileID: 1804846407}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &746009396
@@ -2724,7 +2822,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2986,6 +3084,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3066,6 +3169,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3146,7 +3254,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3325,7 +3433,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3618,7 +3726,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3723,7 +3831,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3815,7 +3923,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1ebfad6a396383943bd4185bc085b3b3, type: 2}
+  - {fileID: 2100000, guid: 48bdda9af90f2ae409dc3916ee75cfbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3966,6 +4074,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3995,6 +4108,30 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2036066354}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1804846406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8214709504258966970, guid: 8eee502efd99b304f9d04f3291d98339,
+    type: 3}
+  m_PrefabInstance: {fileID: 498230208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1804846407 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2738482165517026532, guid: 8eee502efd99b304f9d04f3291d98339,
+    type: 3}
+  m_PrefabInstance: {fileID: 498230208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1804846408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804846406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e16dc51cec1c4454b987f88a0c0b3264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1805913146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4058,6 +4195,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4138,7 +4280,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4243,7 +4385,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4336,6 +4478,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4423,7 +4570,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2abe556751eb8b4fb418aef43ca2c7c, type: 2}
+  - {fileID: 2100000, guid: 046a8ba0f394478498ad8ff23c003851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4528,6 +4675,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interestin Obstacle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 9223333482776916742, guid: 616516b2dd2b96744a8c5407674e43b7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e99cdfca413afe1488eedf83f50fa014, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
