@@ -7,9 +7,9 @@ public class teleport : MonoBehaviour
 
 private float teleporttime = 1;
 private float teleporttime2 = 1;
-    private float zNumber = 7.5f;
+    private float zNumber = 3.75f;
   
-      private float xNumber = 7.5f;
+      private float xNumber = 3.75f;
    
     
  
