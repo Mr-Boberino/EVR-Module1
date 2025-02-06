@@ -129,9 +129,10 @@ GameObject:
   - component: {fileID: 967907750115072633}
   - component: {fileID: 7302121093402349258}
   - component: {fileID: 5738645461981921083}
+  - component: {fileID: 847214181340778808}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,7 +146,7 @@ Transform:
   m_GameObject: {fileID: 5065123697959066814}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.414411, y: -1.05, z: -1.3962466e+15}
+  m_LocalPosition: {x: 8.710589, y: 1.0998939, z: 8.581038}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -187,8 +188,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e208d7dbb9e97a14386873e8a4b71b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  enemy: {fileID: 5065123697959066814}
+--- !u!114 &847214181340778808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5065123697959066814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d681324bb689c48a92f60825e24839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onTakeDamage:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onceOnly: 0
+  targetCenter: {fileID: 4470563797984034251}
+  baseTransform: {fileID: 0}
+  fallenDownTransform: {fileID: 0}
+  fallTime: 0.5
 --- !u!1 &5374115057626374829
 GameObject:
   m_ObjectHideFlags: 0
